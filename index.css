@@ -1,0 +1,39 @@
+/* Basic styling for the chat */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    color: #333;
+}
+
+#chat {
+    width: 300px;
+    height: 200px;
+    overflow: scroll;
+    border: 1px solid #ccc;
+    background: #f3f7fa;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+input {
+    width: 200px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkblue;
+}
